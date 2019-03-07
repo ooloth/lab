@@ -1,0 +1,140 @@
+/*
+
+BORDERS
+=======
+
+Adapted from: http://tachyons.io/docs/themes/borders/
+
+*/
+
+@variants responsive, hover, focus, group-hover {
+
+  /* Resets */
+  .bn   { border-style: none;        border-width: 0 }
+  .bt-0 { border-top-style: none;    border-top-width: 0 }
+  .br-0 { border-right-style: none;  border-right-width: 0 }
+  .bb-0 { border-bottom-style: none; border-bottom-width: 0 }
+  .bl-0 { border-left-style: none;   border-left-width: 0 }
+  .bv-0 { 
+    border-top-style: none;   
+    border-top-width: 0; 
+    border-bottom-style: none;   
+    border-bottom-width: 0;   
+  }
+  .bh-0 { 
+    border-left-style: none;   
+    border-left-width: 0; 
+    border-right-style: none;   
+    border-right-width: 0;   
+  }
+
+  .ba { border-style: solid;        border-width: 1px }
+  .bt { border-top-style: solid;    border-top-width: 1px }
+  .br { border-right-style: solid;  border-right-width: 1px }
+  .bb { border-bottom-style: solid; border-bottom-width: 1px }
+  .bl { border-left-style: solid;   border-left-width: 1px }
+  .bv { 
+    border-top-style: solid;   
+    border-top-width: 1px; 
+    border-bottom-style: solid;   
+    border-bottom-width: 1px;   
+  }
+  .bh { 
+    border-left-style: solid;   
+    border-left-width: 1px; 
+    border-right-style: solid;   
+    border-right-width: 1px;   
+  }
+
+  .ba-1 { border-style: solid;        border-width: var(--border-width-1) }
+  .bt-1 { border-top-style: solid;    border-top-width: var(--border-width-1) }
+  .br-1 { border-right-style: solid;  border-right-width: var(--border-width-1) }
+  .bb-1 { border-bottom-style: solid; border-bottom-width: var(--border-width-1) }
+  .bl-1 { border-left-style: solid;   border-left-width: var(--border-width-1) }
+  .bv-1 { 
+    border-top-style: solid;   
+    border-top-width: var(--border-width-1); 
+    border-bottom-style: solid;   
+    border-bottom-width: var(--border-width-1);   
+  }
+  .bh-1 { 
+    border-left-style: solid;   
+    border-left-width: var(--border-width-1); 
+    border-right-style: solid;   
+    border-right-width: var(--border-width-1);   
+  }
+  
+  .ba-2 { border-style: solid;        border-width: var(--border-width-2) }
+  .bt-2 { border-top-style: solid;    border-top-width: var(--border-width-2) }
+  .br-2 { border-right-style: solid;  border-right-width: var(--border-width-2) }
+  .bb-2 { border-bottom-style: solid; border-bottom-width: var(--border-width-2) }
+  .bl-2 { border-left-style: solid;   border-left-width: var(--border-width-2) }
+  .bv-2 { 
+    border-top-style: solid;   
+    border-top-width: var(--border-width-2); 
+    border-bottom-style: solid;   
+    border-bottom-width: var(--border-width-2);   
+  }
+  .bh-2 { 
+    border-left-style: solid;   
+    border-left-width: var(--border-width-2); 
+    border-right-style: solid;   
+    border-right-width: var(--border-width-2);   
+  }
+  
+  .ba-3 { border-style: solid;        border-width: var(--border-width-3) }
+  .bt-3 { border-top-style: solid;    border-top-width: var(--border-width-3) }
+  .br-3 { border-right-style: solid;  border-right-width: var(--border-width-3) }
+  .bb-3 { border-bottom-style: solid; border-bottom-width: var(--border-width-3) }
+  .bl-3 { border-left-style: solid;   border-left-width: var(--border-width-3) }
+  .bv-3 { 
+    border-top-style: solid;   
+    border-top-width: var(--border-width-3); 
+    border-bottom-style: solid;   
+    border-bottom-width: var(--border-width-3);   
+  }
+  .bh-3 { 
+    border-left-style: solid;   
+    border-left-width: var(--border-width-3); 
+    border-right-style: solid;   
+    border-right-width: var(--border-width-3);   
+  }
+  
+  .ba-4 { border-style: solid;        border-width: var(--border-width-4) }
+  .bt-4 { border-top-style: solid;    border-top-width: var(--border-width-4) }
+  .br-4 { border-right-style: solid;  border-right-width: var(--border-width-4) }
+  .bb-4 { border-bottom-style: solid; border-bottom-width: var(--border-width-4) }
+  .bl-4 { border-left-style: solid;   border-left-width: var(--border-width-4) }
+  .bv-4 { 
+    border-top-style: solid;   
+    border-top-width: var(--border-width-4); 
+    border-bottom-style: solid;   
+    border-bottom-width: var(--border-width-4);   
+  }
+  .bh-4 { 
+    border-left-style: solid;   
+    border-left-width: var(--border-width-4); 
+    border-right-style: solid;   
+    border-right-width: var(--border-width-4);   
+  }
+  
+  .ba-5 { border-style: solid;        border-width: var(--border-width-5) }
+  .bt-5 { border-top-style: solid;    border-top-width: var(--border-width-5) }
+  .br-5 { border-right-style: solid;  border-right-width: var(--border-width-5) }
+  .bb-5 { border-bottom-style: solid; border-bottom-width: var(--border-width-5) }
+  .bl-5 { border-left-style: solid;   border-left-width: var(--border-width-5) }
+  .bv-5 { 
+    border-top-style: solid;   
+    border-top-width: var(--border-width-5); 
+    border-bottom-style: solid;   
+    border-bottom-width: var(--border-width-5);   
+  }
+  .bh-5 { 
+    border-left-style: solid;   
+    border-left-width: var(--border-width-5); 
+    border-right-style: solid;   
+    border-right-width: var(--border-width-5);   
+  }
+
+}
+

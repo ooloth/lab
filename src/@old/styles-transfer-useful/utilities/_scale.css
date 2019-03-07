@@ -1,0 +1,53 @@
+/* 
+ *
+ * Scale
+ *
+ */
+
+@responsive {
+
+  .scale-0   { transform: scale(0) }
+  .scale-p05 { transform: scale(0.05) }
+  .scale-p1  { transform: scale(0.1) }
+  .scale-p15 { transform: scale(0.15) }
+  .scale-p2  { transform: scale(0.2) }
+  .scale-p25 { transform: scale(0.25) }
+  .scale-p3  { transform: scale(0.3) }
+  .scale-p35 { transform: scale(0.35) }
+  .scale-p4  { transform: scale(0.4) }
+  .scale-p45 { transform: scale(0.45) }
+  .scale-p5  { transform: scale(0.5) }
+  .scale-p55 { transform: scale(0.55) }
+  .scale-p6  { transform: scale(0.6) }
+  .scale-p65 { transform: scale(0.65) }
+  .scale-p7  { transform: scale(0.7) }
+  .scale-p75 { transform: scale(0.75) }
+  .scale-p8  { transform: scale(0.8) }
+  .scale-p85 { transform: scale(0.85) }
+  .scale-p9  { transform: scale(0.9) }
+  .scale-p95 { transform: scale(0.95) }
+
+  .scale-1    { transform: scale(1) }
+  .scale-1p05 { transform: scale(1.05) }
+  .scale-1p1  { transform: scale(1.1) }
+  .scale-1p15 { transform: scale(1.15) }
+  .scale-1p2  { transform: scale(1.2) }
+  .scale-1p25 { transform: scale(1.25) }
+  .scale-1p3  { transform: scale(1.3) }
+  .scale-1p35 { transform: scale(1.35) }
+  .scale-1p4  { transform: scale(1.4) }
+  .scale-1p45 { transform: scale(1.45) }
+  .scale-1p5  { transform: scale(1.5) }
+  .scale-1p55 { transform: scale(1.55) }
+  .scale-1p6  { transform: scale(1.6) }
+  .scale-1p65 { transform: scale(1.65) }
+  .scale-1p7  { transform: scale(1.7) }
+  .scale-1p75 { transform: scale(1.75) }
+  .scale-1p8  { transform: scale(1.8) }
+  .scale-1p85 { transform: scale(1.85) }
+  .scale-1p9  { transform: scale(1.9) }
+  .scale-1p95 { transform: scale(1.95) }
+
+  .scale-2    { transform: scale(2) }
+
+}

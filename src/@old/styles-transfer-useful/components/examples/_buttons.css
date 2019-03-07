@@ -1,0 +1,13 @@
+/*
+ *
+ * Buttons
+ *
+ */
+
+.btn { 
+  @apply .ba-1 .b--black .bg-black .pink .pv2 .ph3 .lh-solid .ttu .tracked .animate;
+
+  &:hover { @apply .bg-pink .black }
+
+  @media (--sm) { @apply .f4 }
+}

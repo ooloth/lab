@@ -1,0 +1,35 @@
+/*
+ *
+ * Containers
+ *
+ */
+
+.container {
+  @apply .ml-auto .mr-auto .ph3 .mw9;
+  @media (--md) { @apply .ph4 }
+  @media (--xl) { @apply .ph5 }
+
+  /* Use a smaller max width in IE? */
+  /* @supports (display: grid) { @apply .mw9 } */
+}
+
+.container-not-centered { 
+  @apply .ph3 .mw8;
+  @media (--md) { @apply .ph4 }
+  @media (--xl) { @apply .ph5 }
+
+  /* Use a smaller max width in IE? */
+  /* @supports (display: grid) { @apply .mw9 } */
+}
+
+.container-full { 
+  @apply .ph3;
+  @media (--md) { @apply .ph4 }
+  @media (--xl) { @apply .ph5 }
+}
+
+.page-width { @apply .ml-auto .mr-auto .mw9 }
+
+/* TODO: adjust breakout width as needed */
+/* https://www.lullabot.com/articles/unexpected-power-of-viewport-units-in-css */
+.break-out { @apply .relative .left-50 .transX--50 .vw-100 }

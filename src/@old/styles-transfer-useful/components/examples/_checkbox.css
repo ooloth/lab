@@ -1,0 +1,30 @@
+/*
+ *
+ * Custom checkboxes
+ *
+ */
+
+/* See: https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_custom_checkbox */
+
+/* The container */
+.custom-checkbox {
+  @apply .dib .relative .cursor-pointer;
+
+  line-height: 1.1;
+  padding-left: 1.5rem;
+}
+
+/* Hide the browser's default checkbox */
+.custom-checkbox input { @apply .sr-only }
+
+/* Custom checkbox styling */
+.checkmark { 
+  @apply .absolute .top-0 .left-0 .ba-1 .br2 .b--yellow .bg-near-white .cursor-pointer;
+
+  width: 1em;
+  height: 1em;
+  line-height: 1;
+}
+
+/* Checked checkbox styling */
+.custom-checkbox input:checked ~ .checkmark { @apply .bg-yellow }

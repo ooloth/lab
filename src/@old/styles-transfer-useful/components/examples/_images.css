@@ -1,0 +1,10 @@
+/*
+ *
+ * Images
+ *
+ */
+
+.bg-image {
+  @apply .absolute !important;
+  @apply .fill;
+}

@@ -1,0 +1,35 @@
+- image: ../images/placeholder-1.jpg
+  alt: Visual description of image contents
+  objPosition: 50% 50%
+  caption: 'Photo by Photographer #1'
+  category: portrait
+
+- image: ../images/placeholder-2.jpg
+  alt: Visual description of image contents
+  objPosition: 50% 50%
+  caption: 'Photo by Photographer #2'
+  category: portrait
+
+- image: ../images/placeholder-3.jpg
+  alt: Visual description of image contents
+  objPosition: 50% 50%
+  caption: 'Photo by Photographer #3'
+  category: portrait
+
+- image: ../images/placeholder-4.jpg
+  alt: Visual description of image contents
+  objPosition: 50% 50%
+  caption: 'Photo by Photographer #4'
+  category: portrait
+
+- image: ../images/placeholder-5.jpg
+  alt: Visual description of image contents
+  objPosition: 50% 50%
+  caption: 'Photo by Photographer #5'
+  category: portrait
+
+- image: ../images/placeholder-6.jpg
+  alt: Visual description of image contents
+  objPosition: 50% 50%
+  caption: 'Photo by Photographer #6'
+  category: portrait

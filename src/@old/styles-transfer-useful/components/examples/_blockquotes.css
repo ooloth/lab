@@ -1,0 +1,12 @@
+/*
+ *
+ * Blockquotes (classes to style the <Quote /> component)
+ *
+ */
+
+.quote-body { 
+  @apply .f4 .lh-copy; 
+  /* add quotation marks in ::after / ::before using content: open-quote / close-quote? */ 
+}
+.quote-source { @apply .mt3 .fs-normal }
+.quote-link   { @apply .blue }

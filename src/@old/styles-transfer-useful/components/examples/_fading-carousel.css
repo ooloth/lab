@@ -1,0 +1,12 @@
+/* When the input is checked, adjust the styling of the NEXT label in the DOM */
+.carousel-input {
+  @apply .dn;
+  
+	/* &:checked + label {
+    @apply .bg-silver;
+	} */
+
+}
+
+/* Prevent the fieldset height from partially collapsing */
+.carousel-label { @apply .inline-flex }

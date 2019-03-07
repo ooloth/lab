@@ -1,0 +1,16 @@
+/*
+ *
+ * Dropcap
+ *
+ */
+
+.dropcap:first-letter {
+  float: left;
+  margin-left: -.1rem;
+  margin-top: .15rem;
+  padding: .4rem .35rem 0 0;
+  line-height: .75;
+  font-family: "Droid Sans";
+  font-size: 5rem;
+  color: var(--gold);
+}

@@ -1,0 +1,35 @@
+/*
+ *
+ * Filter Inputs & Labels
+ *
+ */
+
+/*
+ *
+ * Radio Buttons
+ *
+ */
+
+.filter { @apply .f3 .animate }
+.active-filter { @apply .scale-1p1 .gold }
+
+/* When the input is checked, adjust the styling of the NEXT label in the DOM */
+.filter-input {
+  @apply .sr-only; /* necessary to hide input in IE while keeping it accessible */
+
+	&:checked + label {
+    @apply .bg-pink .black;
+	}
+  
+}
+
+/* Prevent the fieldset height from partially collapsing */
+.filter-label { @apply .inline-flex }
+
+/*
+ *
+ * Checkboxes
+ *
+ */
+
+/* ... */

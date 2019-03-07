@@ -1,0 +1,41 @@
+- video: https://www.youtube.com/watch?v=M8z5eB3bQS4
+  image: ../images/placeholder-1.jpg
+  alt: Visual description of image contents
+  objPosition: 50% 50%
+  caption: 'Video of Item #1'
+  category: video
+
+- video: https://www.youtube.com/watch?v=xYq9t4Ce96M
+  image: ../images/placeholder-2.jpg
+  alt: Visual description of image contents
+  objPosition: 50% 50%
+  caption: 'Video of Item #2'
+  category: video
+
+- video: https://www.youtube.com/watch?v=cYY_8aH0ifI
+  image: ../images/placeholder-3.jpg
+  alt: Visual description of image contents
+  objPosition: 50% 50%
+  caption: 'Video of Item #3'
+  category: video
+
+- video: https://www.youtube.com/watch?v=Os8qG2-fD4E
+  image: ../images/placeholder-4.jpg
+  alt: Visual description of image contents
+  objPosition: 50% 50%
+  caption: 'Video of Item #4'
+  category: video
+
+- video: https://www.youtube.com/watch?v=_hkiYX9P8Jg
+  image: ../images/placeholder-5.jpg
+  alt: Visual description of image contents
+  objPosition: 50% 50%
+  caption: 'Video of Item #5'
+  category: video
+
+- video: https://www.youtube.com/watch?v=n1nFueuhLrg
+  image: ../images/placeholder-6.jpg
+  alt: Visual description of image contents
+  objPosition: 50% 50%
+  caption: 'Video of Item #6'
+  category: video

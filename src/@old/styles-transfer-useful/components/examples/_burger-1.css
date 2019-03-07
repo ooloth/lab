@@ -1,0 +1,30 @@
+/* 
+
+These go with the burger in Peter's components/BurgerAndOverlay 
+
+*/
+
+/* purgecss start ignore */
+
+.burger {
+  @apply .relative .animate .cursor-pointer;
+
+  width: 30px;
+  height: 24px;
+}
+
+.burger-layer {
+  @apply .db .absolute .z-1;
+
+  width: 30px;
+  height: 4px;
+  background-color: currentColor;
+  top: 10px;
+}
+
+.burger-layer.top { transform: translateY(-8px) }
+.burger-layer.bottom { transform: translateY(8px); }
+
+.burger:hover .burger-layer { @apply .bg-pink }
+
+/* purgecss end ignore */

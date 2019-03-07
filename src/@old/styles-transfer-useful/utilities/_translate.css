@@ -1,0 +1,155 @@
+/* 
+ *
+ * Translate
+ *
+ */
+
+@responsive {
+
+  /* Translate X */
+  .transX-100         { transform: translateX(100%) }
+  .transX-95          { transform: translateX(95%) }
+  .transX-90          { transform: translateX(90%) }
+  .transX-85          { transform: translateX(85%) }
+  .transX-80          { transform: translateX(80%) }
+  .transX-75          { transform: translateX(75%) }
+  .transX-70          { transform: translateX(70%) }
+  .transX-two-thirds  { transform: translateX( calc(100% / 1.5) ) }
+  .transX-65          { transform: translateX(65%) }
+  .transX-60          { transform: translateX(60%) }
+  .transX-55          { transform: translateX(55%) }
+  .transX-50          { transform: translateX(50%) }
+  .transX-45          { transform: translateX(45%) }
+  .transX-40          { transform: translateX(40%) }
+  .transX-35          { transform: translateX(35%) }
+  .transX-third       { transform: translateX( calc(100% / 3) ) }
+  .transX-30          { transform: translateX(30%) }
+  .transX-25          { transform: translateX(25%) }
+  .transX-20          { transform: translateX(20%) }
+  .transX-15          { transform: translateX(15%) }
+  .transX-10          { transform: translateX(10%) }
+  .transX-05          { transform: translateX(5%) }
+
+  .transX-0           { transform: translateX(0) }
+
+  .transX--05         { transform: translateX(-5%) }
+  .transX--10         { transform: translateX(-10%) }
+  .transX--15         { transform: translateX(-15%) }
+  .transX--20         { transform: translateX(-20%) }
+  .transX--25         { transform: translateX(-25%) }
+  .transX--30         { transform: translateX(-30%) }
+  .transX-third       { transform: translateX( calc(-100% / 3) ) }
+  .transX--35         { transform: translateX(-35%) }
+  .transX--40         { transform: translateX(-40%) }
+  .transX--45         { transform: translateX(-45%) }
+  .transX--50         { transform: translateX(-50%) }
+  .transX--55         { transform: translateX(-55%) }
+  .transX--60         { transform: translateX(-60%) }
+  .transX--65         { transform: translateX(-65%) }
+  .transX--two-thirds { transform: translateX( calc(-100% / 1.5) ) }
+  .transX--70         { transform: translateX(-70%) }
+  .transX--75         { transform: translateX(-75%) }
+  .transX--80         { transform: translateX(-80%) }
+  .transX--85         { transform: translateX(-85%) }
+  .transX--90         { transform: translateX(-90%) }
+  .transX--95         { transform: translateX(-95%) }
+  .transX--100        { transform: translateX(-100%) }
+
+  /* Translate Y */
+  .transY-100         { transform: translateY(100%) }
+  .transY-95          { transform: translateY(95%) }
+  .transY-90          { transform: translateY(90%) }
+  .transY-85          { transform: translateY(85%) }
+  .transY-80          { transform: translateY(80%) }
+  .transY-75          { transform: translateY(75%) }
+  .transY-70          { transform: translateY(70%) }
+  .transY-two-thirds  { transform: translateY( calc(100% / 1.5) ) }
+  .transY-65          { transform: translateY(65%) }
+  .transY-60          { transform: translateY(60%) }
+  .transY-55          { transform: translateY(55%) }
+  .transY-50          { transform: translateY(50%) }
+  .transY-45          { transform: translateY(45%) }
+  .transY-40          { transform: translateY(40%) }
+  .transY-35          { transform: translateY(35%) }
+  .transY-third       { transform: translateY( calc(100% / 3) ) }
+  .transY-30          { transform: translateY(30%) }
+  .transY-25          { transform: translateY(25%) }
+  .transY-20          { transform: translateY(20%) }
+  .transY-15          { transform: translateY(15%) }
+  .transY-10          { transform: translateY(10%) }
+  .transY-05          { transform: translateY(5%) }
+
+  .transY-0           { transform: translateY(0) }
+
+  .transY--05         { transform: translateY(-5%) }
+  .transY--10         { transform: translateY(-10%) }
+  .transY--15         { transform: translateY(-15%) }
+  .transY--20         { transform: translateY(-20%) }
+  .transY--25         { transform: translateY(-25%) }
+  .transY--30         { transform: translateY(-30%) }
+  .transY-third       { transform: translateY( calc(-100% / 3) ) }
+  .transY--35         { transform: translateY(-35%) }
+  .transY--40         { transform: translateY(-40%) }
+  .transY--45         { transform: translateY(-45%) }
+  .transY--50         { transform: translateY(-50%) }
+  .transY--55         { transform: translateY(-55%) }
+  .transY--60         { transform: translateY(-60%) }
+  .transY--65         { transform: translateY(-65%) }
+  .transY--two-thirds { transform: translateY( calc(-100% / 1.5) ) }
+  .transY--70         { transform: translateY(-70%) }
+  .transY--75         { transform: translateY(-75%) }
+  .transY--80         { transform: translateY(-80%) }
+  .transY--85         { transform: translateY(-85%) }
+  .transY--90         { transform: translateY(-90%) }
+  .transY--95         { transform: translateY(-95%) }
+  .transY--100        { transform: translateY(-100%) }
+
+  /* Translate XY */
+  .transXY-100         { transform: translate(100%, 100%) }
+  .transXY-95          { transform: translate(95%, 95%) }
+  .transXY-90          { transform: translate(90%, 90%) }
+  .transXY-85          { transform: translate(85%, 85%) }
+  .transXY-80          { transform: translate(80%, 80%) }
+  .transXY-75          { transform: translate(75%, 75%) }
+  .transXY-70          { transform: translate(70%, 70%) }
+  .transXY-two-thirds  { transform: translate(calc(100% / 1.5), calc(100% / 1.5) ) }
+  .transXY-65          { transform: translate(65%, 65%) }
+  .transXY-60          { transform: translate(60%, 60%) }
+  .transXY-55          { transform: translate(55%, 55%) }
+  .transXY-50          { transform: translate(50%, 50%) }
+  .transXY-45          { transform: translate(45%, 45%) }
+  .transXY-40          { transform: translate(40%, 40%) }
+  .transXY-35          { transform: translate(35%, 35%) }
+  .transXY-third       { transform: translate(calc(100% / 3), calc(100% / 3) ) }
+  .transXY-30          { transform: translate(30%, 30%) }
+  .transXY-25          { transform: translate(25%, 25%) }
+  .transXY-20          { transform: translate(20%, 20%) }
+  .transXY-15          { transform: translate(15%, 15%) }
+  .transXY-10          { transform: translate(10%, 10%) }
+  .transXY-05          { transform: translate(5%, 5%) }
+
+  .transXY-0           { transform: translate(0, 0) }
+
+  .transXY--05         { transform: translate(-5%, -5%) }
+  .transXY--10         { transform: translate(-10%, -10%) }
+  .transXY--15         { transform: translate(-15%, -15%) }
+  .transXY--20         { transform: translate(-20%, -20%) }
+  .transXY--25         { transform: translate(-25%, -25%) }
+  .transXY--30         { transform: translate(-30%, -30%) }
+  .transXY-third       { transform: translate(calc(-100% / 3), calc(-100% / 3) ) }
+  .transXY--35         { transform: translate(-35%, -35%) }
+  .transXY--40         { transform: translate(-40%, -40%) }
+  .transXY--45         { transform: translate(-45%, -45%) }
+  .transXY--50         { transform: translate(-50%, -50%) }
+  .transXY--55         { transform: translate(-55%, -55%) }
+  .transXY--60         { transform: translate(-60%, -60%) }
+  .transXY--65         { transform: translate(-65%, -65%) }
+  .transXY--two-thirds { transform: translate(calc(-100% / 1.5), calc(-100% / 1.5) ) }
+  .transXY--70         { transform: translate(-70%, -70%) }
+  .transXY--75         { transform: translate(-75%, -75%) }
+  .transXY--80         { transform: translate(-80%, -80%) }
+  .transXY--85         { transform: translate(-85%, -85%) }
+  .transXY--90         { transform: translate(-90%, -90%) }
+  .transXY--95         { transform: translate(-95%, -95%) }
+  .transXY--100        { transform: translate(-100%, 100%) }
+}

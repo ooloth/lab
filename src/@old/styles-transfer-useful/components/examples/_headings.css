@@ -1,0 +1,63 @@
+/* 
+
+Headings
+
+*/
+
+.heading,
+.page-heading,
+.section-heading,
+.section-subheading { 
+  @apply .ultra .fw4 .ttu; 
+  line-height: 1.05;
+  /* @apply .ultra .ttu .tracked-sm; */ 
+  }
+
+/* Note: largest is "Concrete" on Home page */
+.page-heading {
+  font-size: 2.45rem;
+
+  @media (min-width: 360px) { font-size: 2.6rem }
+  @media (min-width: 400px) { font-size: 2.95rem }
+  @media (--sm) { font-size: 3.5rem }
+}
+
+/* Note: largest is "Testimonials" on Home page */
+.section-heading {
+  font-size: 1.7rem;
+
+  @media (min-width: 360px) { font-size: 1.95rem }
+  @media (min-width: 400px) { font-size: 2.15rem }
+  @media (--sm) { font-size: 2.9rem }
+}
+
+.section-subheading { 
+  font-size: 1.3rem;
+
+  @media (min-width: 360px) { font-size: 1.45rem }
+  @media (min-width: 400px) { font-size: 1.6rem }
+  @media (--sm) { font-size: 1.75rem }
+}
+
+/* Bars that extend to the edge of the left viewport */
+.heading-trail-white      { @apply .bg-white .transY--50 }
+.heading-trail-near-white { @apply .bg-near-white .transY--50 }
+
+.heading-trail-white::before,
+.heading-trail-near-white::before {
+  @apply .db .absolute .top-0 .left-0 .h-100;
+  content: '';
+  width: 99999px;
+  transform: translateX(-100%);
+}
+
+/* Color of each bar */
+.heading-trail-white::before      { @apply .bg-white }
+.heading-trail-near-white::before { @apply .bg-near-white }
+
+
+/* Headings with a blue underline */
+.heading-underline::after {
+  @apply .db .mt2 .bg-blue .pt1 .w4;
+  content: '';
+}

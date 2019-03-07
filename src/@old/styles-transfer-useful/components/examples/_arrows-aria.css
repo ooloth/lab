@@ -1,0 +1,161 @@
+/* These go with the arrows in components/examples/Arrows */
+
+/* 
+ *
+ * Arrow down
+ *
+ */
+
+/* purgecss start ignore */
+
+.button-scroll-down {
+  width: 48px;
+  height: 48px;
+  position: absolute;
+  z-index: 40;
+  bottom: -24px;
+  left: 50%;
+  margin: 0 0 0 -24px;
+  cursor: pointer;
+  display: block;
+}
+
+.button-scroll-down .arrow-line {
+  width: 2px;
+  height: 18px;
+  top: 14px;
+  left: 50%;
+  position: absolute;
+  display: block;
+  margin: 0 0 0 -1px;
+  background: #30393b;
+  z-index: 1;
+}
+
+.button-scroll-down:hover .arrow-line {
+  transition-delay: 200ms;
+  height: 49px;
+}
+
+.button-scroll-down .arrow {
+  width: 0px;
+  height: 0px;
+  border-style: solid;
+  border-width: 7px 6px 0 6px;
+  border-color: #30393b transparent transparent transparent;
+  display: block;
+  position: absolute;
+  z-index: 4;
+  bottom: -4px;
+  left: -5px;
+}
+
+/* 
+ *
+ * Arrow left
+ *
+ */
+
+.arrow-left {
+  width: 70px;
+  height: 60px;
+  display: block;
+  float: none;
+  border: none;
+  cursor: pointer;
+  position: absolute;
+  z-index: 10;
+  bottom: 0;
+  left: 0;
+}
+
+.arrow-left .arrow-line {
+  width: 54px;
+  height: 2px;
+  top: 50%;
+  right: -28px;
+  position: absolute;
+  display: block;
+  margin: -1px 0 0 0;
+  background: #282828;
+  z-index: 1;
+}
+
+.arrow-left .arrow {
+  width: 0px;
+  height: 0px;
+  border-style: solid;
+  border-width: 6px 7px 6px 0;
+  border-color: transparent #282828 transparent transparent ;
+  position: absolute;
+  z-index: 4;
+  display: block;
+  left: -4px;
+  top: -5px;
+}
+
+.arrow-left:hover .arrow-line {
+  transition-delay: 200ms;
+  transform: translateX(-23px);
+}
+
+.group:hover .arrow-left .arrow-line {
+  transition-delay: 200ms;
+  transform: translateX(-23px);
+}
+
+/* 
+ *
+ * Arrow right
+ *
+ */
+
+.arrow-right {
+  width: 70px;
+  height: 60px;
+  display: block;
+  float: none;
+  border: none;
+  cursor: pointer;
+  position: absolute;
+  z-index: 10;
+  bottom: 0;
+  right: 0;
+}
+
+.arrow-right .arrow-line {
+  width: 54px;
+  height: 2px;
+  top: 50%;
+  left: -28px;
+  position: absolute;
+  display: block;
+  margin: -1px 0 0 0;
+  background: #282828;
+  z-index: 1;
+}
+
+.arrow-right .arrow {
+  width: 0px;
+  height: 0px;
+  border-style: solid;
+  border-width: 6px 0 6px 7px;
+  border-color: transparent transparent transparent #282828;
+  position: absolute;
+  z-index: 4;
+  display: block;
+  right: -4px;
+  top: -5px;
+}
+
+.arrow-right:hover .arrow-line {
+  transition-delay: 200ms;
+  transform: translateX(23px);
+}
+
+.group:hover .arrow-right .arrow-line {
+  transition-delay: 200ms;
+  transform: translateX(23px);
+}
+
+/* purgecss end ignore */

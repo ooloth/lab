@@ -1,0 +1,29 @@
+/*
+
+Component classes
+
+*/
+
+
+/* Comment out full list below and add the used components here */
+
+@import './examples/angles';
+@import './examples/arrows';
+@import './examples/arrows-aria';
+@import './examples/blockquotes';
+@import './examples/burger-1';
+@import './examples/burger-2';
+@import './examples/buttons';
+@import './examples/checkbox';
+@import './examples/containers';
+@import './examples/dropcap';
+@import './examples/emoji';
+@import './examples/fading-carousel';
+@import './examples/filters';
+@import './examples/floating-shapes';
+@import './examples/headings';
+@import './examples/icons';
+@import './examples/images';
+@import './examples/inputs';
+@import './examples/links';
+@import './examples/tooltips'; 

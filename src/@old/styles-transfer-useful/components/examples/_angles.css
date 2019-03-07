@@ -1,0 +1,35 @@
+/*
+
+ANGLES
+
+These styles accompany the Angle.js component
+
+*/
+
+
+/* Horizontal triangle rotations */
+.rotate-down-from-right {
+  transform: rotate(-.1deg);
+  transform-origin: 120% 100%; /* Overshoot the X point to close the seam in Safari */
+}
+
+.rotate-down-from-left {
+  transform: rotate(.1deg);
+  transform-origin: -20% 100%;
+}
+
+.rotate-up-from-right {
+  transform: rotate(.1deg);
+  transform-origin: 120% 0%;
+}
+
+.rotate-up-from-left {
+  transform: rotate(-.1deg);
+  transform-origin: -20% 0%;
+}
+
+/* Vertical triangle rotations */
+.rotate-right-from-top {
+  transform: rotate(.1deg);
+  transform-origin: left top;
+}

@@ -1,0 +1,21 @@
+- title: Template 1
+  slug: template-1
+  pageMetadata:
+    title: Template 1 | Gatsby Starter
+    description: About page 1...
+    url: https://www.gatsbystarter.netlify.com/template-page-1
+
+- title: Template 2
+  slug: template-2
+  pageMetadata:
+    title: Template 2 | Gatsby Starter
+    description: About page 2...
+    url: https://www.gatsbystarter.netlify.com/template-page-2
+
+- title: Template 3
+  slug: template-3
+  pageMetadata:
+    title: Template 3 | Gatsby Starter
+    description: About page 3...
+    url: https://www.gatsbystarter.netlify.com/template-page-3
+

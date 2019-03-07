@@ -1,0 +1,86 @@
+/*
+
+Burger 2
+
+These go with the burger in Dan Cabena's components/Burger2AndOverlay
+
+https://codepen.io/mblode/pen/qEGWwB
+
+*/
+
+/* purgecss start ignore */
+
+.b-menu {
+  @apply .flex .flex-column .justify-center .items-center .relative .bg-white .br-100 .pa2;
+  
+  border: transparent solid 2px;
+  width: 52px;
+  height: 52px;
+  transition: all .4s ease-in-out;
+  z-index: 12;
+
+  &:hover {
+    border: currentColor solid 2px;
+  }
+}
+
+.b-bun {
+  background: currentColor;
+  position: relative;
+  transition: all .4s ease;
+  
+  /* Hacks to fix bars being too far left in the circle */
+  @media (--sm) { left: 1px }
+  @media (--lg) { left: 0px }
+
+  &--top {
+    height: 2px;
+    top: -8px;
+    width: 27px;
+  }
+
+  &--mid {
+    height: 2px;
+    top: 0px;
+    width: 27px;
+  }
+
+  &--bottom {
+    height: 2px;
+    top: 8px;
+    width: 27px;
+  }
+}
+
+.b-container {
+  position: relative;
+
+  &:hover:not(.open) {
+    .bun-top,
+    .bun-mid,
+    .bun-bottom {
+      background: #fff;
+    }
+  }
+
+  &.open {
+    .b-menu       { @apply .bg-dark-gray }
+    .b-menu:hover { @apply .b--white }
+
+    .b-bun--top {
+      background: currentColor;
+      transform: translateY(10px) rotate(45deg) scaleX(1.25);
+      transform-origin: center;
+    }
+
+    .b-bun--mid { @apply .o-0 }
+
+    .b-bun--bottom {
+      background: currentColor;
+      transform: translateY(-10px) rotate(-45deg) scaleX(1.25);
+      transform-origin: center;
+    }
+  }
+}
+
+/* purgecss end ignore */

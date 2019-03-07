@@ -1,0 +1,32 @@
+/*
+
+Styles for AnchorWithArrow.js / LinkWithArrow.js
+
+*/
+
+.arrow {
+  @apply .db .relative .top-0 .left-0 .mr2 .bg-pink .w1 .animate;
+
+  &::before {
+    @apply .db .absolute .top-0 .left-0 .w-100;
+    content: '';
+    margin-top: -1px;
+    height: 2px;
+    background-color: currentColor;
+  }
+
+  &::after {
+    @apply .db .absolute .top-0 .right-0 .w-0 .h-0;
+    content: '';
+    transform: translate(2px, -50%);
+    border-style: solid;
+    border-width: 6px 0 6px 7px;
+    border-color: transparent transparent transparent currentColor;
+  }
+}
+
+.group:hover {
+  .arrow         { @apply .w2 }
+  .arrow::before { @apply .bg-blue }
+  .arrow::after  { border-left-color: var(--blue) }
+}
