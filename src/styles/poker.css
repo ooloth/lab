@@ -1,15 +1,20 @@
-[data-action="raise"]           { @apply .bg-light-red }
-[data-action="raiseOrCall"]     { @apply .bg-light-pink }
-[data-action="raiseOrFold"]     { @apply .bg-light-red .o-50 }
-[data-action="call"]            { @apply .bg-green }
-[data-action="callOrFold"]      { @apply .bg-green .o-50 }
-[data-action="raiseCallOrFold"] { @apply .bg-light-blue }
-[data-action="fold"]            { @apply .bg-moon-gray .o-20 }
+[data-action="raise"]           { background-color: red }
+[data-action="raiseOrCall"]     { background-color: pink }
+[data-action="raiseOrFold"]     { background-color: red; opacity: .5 }
+[data-action="call"]            { background-color: green }
+[data-action="callOrFold"]      { background-color: green; opacity: .5 }
+[data-action="raiseCallOrFold"] { background-color: blue }
+[data-action="fold"]            { background-color: gray; opacity: .2 }
 
 .poker-link {
+  /* margin-bottom: .5rem;
+  border: 1px solid black; */
+}
+
+/* .poker-link {
   @apply .mb2 .b--black .br4 .bg-black .pv1 .ph2 .lh-solid .ttu .tracked .white;
 
   &:hover { @apply .bg-green .black .shadow-md }
 
   @media (--md) { @apply .pv2 .ph3 }
-}
+} */
